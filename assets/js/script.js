@@ -14,15 +14,15 @@ var options = [];
 
 // Write the generatePassword() function
 function generatePassword() {
-  // Asks the user how many characters they want
+  // Ask the user how many characters they want
   passwordLength = prompt("How many characters would you like your password to be?")
-  // Asking lowercase letters
+  // Ask lowercase letters
   lowercase = confirm("Do you want to add lowercase letters?");
-  // Asking uppercase letters
+  // Ask uppercase letters
   uppercase = confirm("Do you want to add uppercase letters?");
-  // Asking numbers
+  // Ask numbers
   num = confirm("Do you want to add numbers?");
-  // Asking special characters
+  // Ask special characters
   special = confirm("Do you want to add special characters?");
   // You will need a password length of of at least 8 characters, and no more than 128 characters - how to turn a string type into a number type?
   if (passwordLength < 8) {
